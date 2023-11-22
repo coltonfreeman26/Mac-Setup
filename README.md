@@ -1,5 +1,6 @@
 # Mac Setup
 ## This project is meant to help with setting up an intel Mac book for DevOps type work.
+###This is currently a WIP
 
 **I work with Containers/Docker images a lot so this will mainly be aimed towards that but not strictly.**
 

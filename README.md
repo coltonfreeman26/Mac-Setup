@@ -30,7 +30,7 @@
 ### Tools I use to make my life easier
 **Docker**
 * Docker is a widely popular containerization tool. The two most popular options out there (Aside from Docker which is not free) are Rancher and Colima-(for Mac). I use Colima https://github.com/abiosoft/colima
-* Colima uses Qemu as its virtualization tool which does eat up a lot of resources but this tool works out of the box.
+* Colima uses Qemu as its virtualization tool which does eat up a lot of resources but Colima should work out of the box.
 * It also comes with k3s (kubernetes is disabled by default)
 * To install and get colima running you just need to run `brew install colima` > `colima start` however I suggest using `colima start --kubernetes --cpu 16 --memory 16 --disk 100`
 
@@ -38,19 +38,39 @@
 * Slack is a free opensource chat app that is widely used in the IT realm.
 * To download slack go to https://slack.com/downloads/mac
 
+**Brave**
+* Brave is a web browser.
+* Brave is Chromium based so it is similar to Google but comes with built in ad and malware blockers.
+
 **Programming languages.**
 * Having multiple languages on your box at setup can save you some grief down the road when building or troubleshooting.
 * A simple `brew install <language>` should do the trick. Pay attention to the download logs though as some installations will require you to either symlink them or update your PATH.
 
 **Virtual Box**
-* 
+* Virtual Box is a Virtual Machine manager. It is free to use and the download link can be found here https://www.virtualbox.org/wiki/Downloads
+* Virtual Box has a user friendly GUI and can be used to import or create new VM's.
+* This is great for testing in various environments.
+* This also allows for you to then create your own VM and export it.
+
+**Open Lens**
+* Open Lens is a free opensource tool that helps you to manage your Kubernetes cluster. 
+* It does have a user friendly GUI so if you prefer that over the terminal this would be the tool Id suggest.
+* To install this you just need to run `brew install --cask openlens`
+
+**k9s**
+* Like Open Lens, k9s is another tool you can use to help manage your Kubernetes cluster.
+* This however does not come with a GUI but the terminal for this is easy to read.
+* To install this just run `brew install k9s`
 
 **CaC and IaC**
 * Ansible, Terraform, Terragrunt and Packer
-* 
+* I am not very familiar with these tools but I do use them for training and the occasional troubleshooting.
+* Example is Packer. This is a tool that can be used to create consistent VM's. I have an Ubuntu machine set up that builds with preinstalled tools and STIGs applied so if I ever need access to certain apps I can just spin that up.
+* I then export this to a .opa so people can use this out of the box without needing to set anything up themselves.
 
 **osxkeychain**
-* 
+*  This is a tool that comes with Mac's and stores your creds locally.
+*  This is very useful for things like pushing to Gitlab, Github, Docker registries etc.
 
 
 ### This project is meant to help individuals who have just joined the IT world or individuals who have not had to set up a computer in forever. Please feel free to contribute if something is missing or incorrect.

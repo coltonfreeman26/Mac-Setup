@@ -12,20 +12,19 @@
 
 ### Setting up your IDE.
 **I personally like Visual Studio Code the most but there are multiple options out there https://www.keycdn.com/blog/best-ide#which-is-the-best-ide-on-the-market . You can find the download link for VS Code here https://code.visualstudio.com/download**
----
-    - Once you have installed VS Code I would suggest also downloading some extras to help make using it easier.
-    - Oh My ZSH is a tool that enriches you terminal and is very configurable. https://ohmyz.sh/
-    - cmd+shft+p will bring up the prompt for you to search for `Toggle Auto Save` and `Install "code" command in PATH`. Both useful.
-    - Extensions are very useful for just about any type of work you are doing within VS    Code. Some of the ones I use are...
-    * Ansible by Red Hat
-    * Docker by Microsoft
-    * DotENV by mikestead
-    * Gitlab Workflow by Gitlab
-    * HashiCorp Terraform by HashiCorp
-    * json by zainchen
-    * Python by Microsoft
-    * YAML by Red Hat
-    - These are just a few I use. There are a lot out there for various needs like: spell   check, linting, SSH etc. I would advise only using extensions that have a lot of    downloads and a high rating.
+    * Once you have installed VS Code I would suggest also downloading some extras to help make using it easier.
+    * Oh My ZSH is a tool that enriches you terminal and is very configurable. https://ohmyz.sh/
+    * cmd+shft+p will bring up the prompt for you to search for `Toggle Auto Save` and `Install "code" command in PATH`. Both useful.
+    * Extensions are very useful for just about any type of work you are doing within VS    Code. Some of the ones I use are...
+    - Ansible by Red Hat
+    - Docker by Microsoft
+    - DotENV by mikestead
+    - Gitlab Workflow by Gitlab
+    - HashiCorp Terraform by HashiCorp
+    - json by zainchen
+    - Python by Microsoft
+    - YAML by Red Hat
+- * These are just a few I use. There are a lot out there for various needs like: spell   check, linting, SSH etc. I would advise only using extensions that have a lot of    downloads and a high rating.
 
 ### Tools I use to make my life easier
 **Docker**

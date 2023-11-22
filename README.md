@@ -5,11 +5,11 @@
 **I work with Containers/Docker images a lot so this will mainly be aimed towards that but not strictly.**
 
 ### Setting up Brew
-**Brew is Macs package manager. It makes downloading various tools quick and easy. Brew is open source and anyone can technically contribute a new package to their repository but they are vetted for validity before being accepted. So be aware of thepackage you are installing**
+**Brew is Macs package manager. It makes downloading various tools quick and easy. Brew is open source and anyone can technically contribute a new package to their repository but they are vetted for validity before being accepted. So be aware of the packages you are installing**
 * First you will need to install Homebrew which can be ound here https://brew.sh/
 * Once that is complete you now have the power of Brew. `brew install python@3.x`, `brew install docker` etc.
 * You can view all the different casks and formulae here https://formulae.brew.sh/
-* I would advise updating brew weekly (at least) `brew update` `brew upgrade`. I have a cron job set up that kicks this off every Monday morning before work.
+* I would advise updating brew weekly (at least) `brew update` > `brew upgrade`. I have a cron job set up that kicks this off every Monday morning before work.
 
 ### Setting up your IDE.
 **I personally like Visual Studio Code the most but there are multiple options out there https://www.keycdn.com/blog/best-ide#which-is-the-best-ide-on-the-market . You can find the download link for VS Code here https://code.visualstudio.com/download**

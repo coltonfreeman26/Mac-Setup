@@ -27,7 +27,8 @@
 - YAML by Red Hat
 * These are just a few I use. There are a lot out there for various needs like: spell   check, linting, SSH etc. I would advise only using extensions that have a lot of    downloads and a high rating.
 
-### Tools I use to make my life easier
+### Tools you can use to help make your life easier
+
 **Docker**
 * Docker is a widely popular containerization tool. The two most popular options out there (Aside from Docker which is not free) are Rancher and Colima-(for Mac). I use Colima https://github.com/abiosoft/colima
 * Colima uses Qemu as its virtualization tool which does eat up a lot of resources but Colima should work out of the box.

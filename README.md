@@ -12,6 +12,7 @@
 
 ### Setting up your IDE.
 **I personally like Visual Studio Code the most but there are multiple options out there https://www.keycdn.com/blog/best-ide#which-is-the-best-ide-on-the-market . You can find the download link for VS Code here https://code.visualstudio.com/download**
+---
     - Once you have installed VS Code I would suggest also downloading some extras to help make using it easier.
     - Oh My ZSH is a tool that enriches you terminal and is very configurable. https://ohmyz.sh/
     - cmd+shft+p will bring up the prompt for you to search for `Toggle Auto Save` and `Install "code" command in PATH`. Both useful.

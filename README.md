@@ -34,6 +34,7 @@
 * Colima uses Qemu as its virtualization tool which does eat up a lot of resources but Colima should work out of the box.
 * It also comes with k3s (kubernetes is disabled by default)
 * To install and get colima running you just need to run `brew install colima` > `colima start` however I suggest using `colima start --kubernetes --cpu 16 --memory 16 --disk 100`
+* I would also suggest installing `docker-buildx` "Docker CLI plugin for extended build capabilities with BuildKit"
 
 **Slack**
 * Slack is a free opensource chat app that is widely used in the IT realm.
